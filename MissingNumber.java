@@ -20,8 +20,7 @@ public class MissingNumber {
         int sum = (n * (n+1))/2;
  
         /*
-          Traversing an array and subtracting each element with
-          the sum 
+          Loop through array and subtracting each element from the sum 
          */
         for(int i = 0; i < k.length; i++) {
             sum = sum - k[i];
