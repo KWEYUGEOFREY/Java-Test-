@@ -1,3 +1,10 @@
+/*
+1.calculate the sum of n numbers using formula
+totalSum = n*(n+1)/2.
+
+ii)Add the numbers of an array and subtract it from the sum of numbers.
+*/
+
 public class MissingNumber {
  
   public static void main(String[] args) {
@@ -17,7 +24,7 @@ public class MissingNumber {
           the sum 
          */
         for(int i = 0; i < k.length; i++) {
-            sum = sum - arr[i];
+            sum = sum - k[i];
         }
  
         System.out.println( " Missing number is " + sum);
